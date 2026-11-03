@@ -24,7 +24,7 @@
 <main>
 <h1>LetterFall</h1>
 <p class="meta">Éditeur / Publisher : JCorp · Contact : <a href="mailto:dev.jcorp@gmail.com">dev.jcorp@gmail.com</a><br>
-En vigueur le 20 octobre 2026 / Effective October 20, 2026</p>
+En vigueur le 3 novembre 2026 / Effective November 3, 2026</p>
 <nav><a href="#fr">Français</a><a href="#en">English</a></nav>
 
 <section id="fr" lang="fr">
@@ -90,8 +90,10 @@ LetterFall utilise Google Firebase Analytics et Firebase Crashlytics, fournis
 par Google :</p>
 <ul>
 <li>sont envoyés : les écrans ouverts (menu, choix du mode, options…), le mode
-de chaque partie lancée, et en fin de partie le mode, le score et le nombre de
-mots trouvés ; en cas de plantage ou d'erreur du jeu, un rapport technique
+de chaque partie lancée, et en fin de partie le mode, le score, le nombre de
+mots trouvés et la fluidité de l'affichage (images par seconde) ; la quantité
+de mémoire vive de l'appareil (arrondie) et l'état du mode léger, pour adapter
+le jeu aux téléphones modestes ; en cas de plantage ou d'erreur du jeu, un rapport technique
 (endroit du code en cause, version du jeu, modèle et version d'Android,
 mémoire et espace libres) ;</li>
 <li>Firebase y joint un identifiant d'installation aléatoire, propre à
@@ -260,8 +262,10 @@ uses information from apps that use its services</a> and the
 Firebase Analytics and Firebase Crashlytics, provided by Google:</p>
 <ul>
 <li>what is sent: the screens you open (menu, mode select, options…), the mode
-of each game you start, and at the end of a game the mode, score and number of
-words found; if the game crashes or hits an error, a technical report (where
+of each game you start, and at the end of a game the mode, score, number of
+words found and display smoothness (frames per second); the device's amount of
+memory (rounded) and whether lite mode is on, to adapt the game to low-end
+phones; if the game crashes or hits an error, a technical report (where
 in the code, game version, device model and Android version, free memory and
 storage);</li>
 <li>Firebase adds a random installation ID specific to LetterFall, general
