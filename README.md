@@ -1,7 +1,11 @@
-# LetterFall – Privacy Policy
+# devjcorp-game.github.io
 
-Politique de confidentialité du jeu Android **LetterFall** (`com.jcorp.letterfall`), publiée avec GitHub Pages.
+Site du développeur JCorp, publié avec GitHub Pages (ancien dépôt `letterfall-privacy`, renommé le 5 novembre 2026).
 
-Privacy policy of the Android game **LetterFall** (`com.jcorp.letterfall`), published with GitHub Pages.
+JCorp developer website, published with GitHub Pages.
 
-Source : `docs/privacy/index.html` du dépôt du jeu. Contact : dev.jcorp@gmail.com
+- `index.html` : page du développeur / developer page (https://devjcorp-game.github.io/)
+- `letterfall-privacy/index.html` : politique de confidentialité de **LetterFall** (`com.jcorp.letterfall`) / privacy policy (https://devjcorp-game.github.io/letterfall-privacy/)
+- `app-ads.txt` : vendeurs autorisés des annonces (AdMob) / authorized ad sellers
+
+Sources : `docs/site/` et `docs/privacy/index.html` du dépôt du jeu. Contact : dev.jcorp@gmail.com
