@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LetterFall – Politique de confidentialité / Privacy Policy</title>
+<style>
+  :root { --ink: #3a2414; --muted: #6b5240; --accent: #e8891c; --paper: #fdf4e3; --line: #e6d3b5; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.8rem; margin: 0 0 4px; }
+  h2 { font-size: 1.25rem; margin: 32px 0 8px; color: var(--accent); }
+  h3 { font-size: 1.05rem; margin: 20px 0 4px; }
+  p, li { margin: 6px 0; }
+  .meta { color: var(--muted); margin: 0 0 16px; }
+  nav a { color: var(--accent); font-weight: 600; margin-right: 16px; }
+  hr { border: 0; border-top: 2px solid var(--line); margin: 48px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0; }
+  th, td { text-align: left; border-bottom: 1px solid var(--line); padding: 6px 8px 6px 0; vertical-align: top; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<h1>LetterFall</h1>
+<p class="meta">Éditeur / Publisher : JCorp · Contact : <a href="mailto:dev.jcorp@gmail.com">dev.jcorp@gmail.com</a><br>
+En vigueur le 5 novembre 2026 / Effective November 5, 2026</p>
+<nav><a href="#fr">Français</a><a href="#en">English</a></nav>
+
+<section id="fr" lang="fr">
+<h2>Politique de confidentialité</h2>
+<p>Cette politique décrit comment le jeu LetterFall (application Android
+<code>com.jcorp.letterfall</code>), édité par JCorp, traite les informations.
+En résumé : <strong>JCorp n'a pas de serveur, ne vend ni ne partage aucune
+donnée personnelle.</strong> Le jeu affiche de la publicité fournie par Google
+AdMob, mesure son utilisation et ses plantages de façon anonyme avec Google
+Firebase (désactivable), utilise, si vous le souhaitez, Google Play Jeux
+(classements, réussites, sauvegarde), et, seulement quand vous jouez un duel en
+ligne, le service de jeu en réseau GD-Sync. Ces services traitent certaines
+données, décrites plus bas.</p>
+
+<h3>Données enregistrées sur votre appareil</h3>
+<p>Votre progression (scores, statistiques, mots de la Collection, série du
+Défi du jour, missions, éléments débloqués, pièces) et vos réglages (volume,
+vibrations, rappels…) sont enregistrés dans le stockage privé de
+l'application, sur votre téléphone. Ils ne sont pas inclus dans la sauvegarde
+Android dans le cloud ; seule une copie peut être placée dans votre sauvegarde
+Google Play Jeux (voir plus bas). Désinstaller l'application supprime les
+données du téléphone.</p>
+
+<h3>Connexion à Internet</h3>
+<p>Pour que le Défi du jour change au même moment pour tout le monde,
+l'application lit l'heure sur un serveur public : elle envoie une simple
+requête (sans contenu) à <code>www.google.com</code>, ou à
+<code>www.cloudflare.com</code> en secours, et ne lit que la date de la
+réponse. Aucune information sur vous ou sur votre partie n'est transmise.
+Comme pour toute connexion à Internet, ces services voient l'adresse IP de
+l'appareil ; ils la traitent selon leurs propres politiques de
+confidentialité. Sans connexion, le jeu reste jouable avec la date du
+téléphone.</p>
+
+<h3>Publicité (Google AdMob)</h3>
+<p>LetterFall est gratuit et financé par la publicité, fournie par Google
+AdMob : une bannière en bas des écrans de partie, une publicité plein écran de
+temps en temps entre deux parties, et des vidéos que vous choisissez de
+regarder pour une récompense (seconde chance, pièces doublées).</p>
+<ul>
+<li>Pour afficher et mesurer ces publicités, le SDK Google Mobile Ads intégré
+au jeu traite des données de l'appareil : identifiant publicitaire Android,
+adresse IP (et la localisation approximative qui s'en déduit), modèle et
+système de l'appareil, langue, interactions avec les publicités, données de
+diagnostic. Elles sont envoyées à Google, pas à JCorp.</li>
+<li>Dans l'Espace économique européen, au Royaume-Uni et en Suisse, un
+formulaire de Google vous demande au premier lancement votre consentement :
+sans consentement, les publicités ne sont pas personnalisées. Vous pouvez
+changer d'avis à tout moment dans les Options, « Confidentialité des pubs ».</li>
+<li>Vous pouvez réinitialiser ou supprimer votre identifiant publicitaire
+dans les paramètres Android (Google › Publicités, ou Confidentialité ›
+Publicités).</li>
+<li>Les publicités sont limitées à un contenu adapté aux adolescents.</li>
+</ul>
+<p>Voir <a href="https://policies.google.com/technologies/partner-sites">comment
+Google utilise les données des applications qui utilisent ses services</a> et
+les <a href="https://policies.google.com/privacy">Règles de confidentialité de
+Google</a>.</p>
+
+<h3>Statistiques d'usage et plantages (Google Firebase)</h3>
+<p>Pour savoir quels modes sont joués et corriger les bugs plus vite,
+LetterFall utilise Google Firebase Analytics et Firebase Crashlytics, fournis
+par Google :</p>
+<ul>
+<li>sont envoyés : les écrans ouverts (menu, choix du mode, options…), le mode
+de chaque partie lancée, et en fin de partie le mode, le score, le nombre de
+mots trouvés et la fluidité de l'affichage (images par seconde) ; la quantité
+de mémoire vive de l'appareil (arrondie) et l'état du mode léger, pour adapter
+le jeu aux téléphones modestes ; vos réglages du jeu (volume de la musique et
+des effets, vibrations, inclinaison et secousse du téléphone, rappels), pour savoir
+lesquels sont utilisés ; en cas de plantage ou d'erreur du jeu, un rapport technique
+(endroit du code en cause, version du jeu, modèle et version d'Android,
+mémoire et espace libres) ;</li>
+<li>Firebase y joint un identifiant d'installation aléatoire, propre à
+LetterFall, ainsi que des informations générales sur l'appareil (modèle,
+version d'Android, langue, pays approximatif déduit de l'adresse IP) et la
+durée des sessions ;</li>
+<li>le jeu y joint aussi un code anonyme de 10 caractères, tiré au hasard au
+premier lancement et sans aucun lien avec votre identité ; il est gardé dans
+votre sauvegarde (et dans la sauvegarde en ligne Google Play Jeux si vous
+l'utilisez), pour qu'un même joueur ne soit compté qu'une fois, même après
+une réinstallation ;</li>
+<li>ne sont jamais envoyés : votre pseudo, les mots que vous formez, votre
+identifiant publicitaire ni votre profil Google Play Jeux ;</li>
+<li>JCorp ne voit que des statistiques anonymes, dans la console Firebase :
+des chiffres globaux (par exemple le nombre de parties par mode), l'activité
+de chaque code anonyme (jours de jeu, temps de jeu, parties, version du jeu,
+modèle d'appareil), sans moyen de relier un code à une personne, et les
+rapports de plantage ; ces données sont hébergées par Google et conservées
+selon ses durées ;</li>
+<li>vous pouvez couper cette collecte à tout moment dans les Options,
+« Statistiques anonymes » : plus rien n'est alors envoyé à Firebase.</li>
+</ul>
+<p>Voir <a href="https://firebase.google.com/support/privacy">Confidentialité et
+sécurité dans Firebase</a> et les
+<a href="https://policies.google.com/privacy">Règles de confidentialité de
+Google</a>.</p>
+
+<h3>Google Play Jeux (facultatif)</h3>
+<p>Sur Android, LetterFall utilise les services Google Play Jeux, fournis par
+Google. Si vous êtes connecté à Google Play Jeux (connexion gérée par Google,
+avec votre profil de joueur Play Jeux) :</p>
+<ul>
+<li>votre score de l'essai classé du jour est envoyé au classement « Défi du
+jour », et le score de chaque partie Arcade ou Contre-la-montre au classement
+du mode : ils sont visibles des autres joueurs avec votre profil Play Jeux
+(pseudo et avatar), selon vos réglages de visibilité Play Jeux ;</li>
+<li>l'écran des classements du jeu affiche ces classements (pseudos, avatars et
+scores des joueurs) ; si vous choisissez le filtre « Amis » et l'autorisez,
+votre liste d'amis Play Jeux sert à n'afficher que vos amis. Elle est lue
+depuis Google sur votre appareil, sans être enregistrée ni transmise ailleurs ;</li>
+<li>vos réussites débloquées (et leur avancement) sont enregistrées dans votre
+profil Play Jeux ;</li>
+<li>votre progression (scores et statistiques, mots de la Collection, série du
+Défi du jour, missions, éléments débloqués, pièces) est sauvegardée dans le
+cloud de votre compte Google (« Sauvegardes de jeu »), pour la retrouver sur un
+autre appareil ou après une réinstallation.</li>
+</ul>
+<p>Ces données sont traitées et hébergées par Google, selon les
+<a href="https://policies.google.com/privacy">Règles de confidentialité de
+Google</a>. JCorp ne les reçoit pas : nous voyons seulement les classements,
+comme les autres joueurs. Sans connexion à Play Jeux, rien n'est envoyé à Play
+Jeux et le jeu fonctionne normalement. Vous pouvez vous déconnecter ou
+supprimer vos données de jeu depuis l'application ou les paramètres Google
+Play Jeux.</p>
+
+<h3>Duel en ligne (GD-Sync)</h3>
+<p>Le Duel peut se jouer en ligne contre un autre joueur (salon privé avec un
+code, ou adversaire au hasard). Ce mode utilise GD-Sync
+(<a href="https://www.gd-sync.com">gd-sync.com</a>), un service de relais pour
+jeux en réseau, et seulement pendant que vous l'utilisez :</p>
+<ul>
+<li>sont transmis : votre pseudo de duel (votre pseudo Google Play Jeux, ou
+« Joueur »), le code du salon, et les messages de la partie (attaques
+envoyées, remplissage de votre bocal, fin de partie). Votre adversaire voit
+votre pseudo ;</li>
+<li>comme pour toute connexion à Internet, GD-Sync voit l'adresse IP de
+l'appareil ;</li>
+<li>aucun compte n'est créé, et rien n'est conservé par JCorp. Le salon
+disparaît quand les deux joueurs l'ont quitté.</li>
+</ul>
+<p>Si vous ne jouez pas en ligne, rien n'est envoyé à GD-Sync.</p>
+
+<h3>Rappels</h3>
+<p>Le jeu peut afficher des rappels (par exemple « Ta série de 12 jours
+t'attend ! ») : ils sont programmés par votre téléphone lui-même, sans serveur,
+et rien n'est envoyé. Vous pouvez les couper dans les Options (« Rappels du
+Défi ») ou dans les paramètres Android.</p>
+
+<h3>Partage, à votre initiative</h3>
+<p>Le bouton « Partager » du Défi du jour copie un texte de résultat dans le
+presse-papiers ; c'est vous qui choisissez de le coller ou non.</p>
+
+<h3>Ce que LetterFall ne fait pas</h3>
+<ul>
+<li>Pas de compte ni d'inscription propres à LetterFall (seulement votre
+profil Google Play Jeux, si vous l'utilisez).</li>
+<li>Pas de serveur JCorp, pas de vente de données, pas d'outil de statistiques
+ou de mesure d'audience en dehors de Google AdMob, Google Firebase et Google
+Play Jeux décrits plus haut (GD-Sync sert seulement à relayer les duels en
+ligne).</li>
+<li>Pas d'accès à votre position GPS, à vos contacts, à vos photos, à votre
+micro ni à votre appareil photo.</li>
+<li>Pas d'achat intégré.</li>
+</ul>
+
+<h3>Autorisations Android</h3>
+<table>
+<tr><th>Autorisation</th><th>Utilisation</th></tr>
+<tr><td>Internet, état du réseau</td><td>Heure du Défi du jour, Google Play Jeux, publicités, statistiques et rapports de plantage, duel en ligne.</td></tr>
+<tr><td>Identifiant publicitaire (AD_ID)</td><td>Publicités Google AdMob (voir plus haut).</td></tr>
+<tr><td>Notifications</td><td>Rappels du Défi du jour (Android 13 et plus : vous choisissez de l'autoriser).</td></tr>
+<tr><td>Vibreur</td><td>Retours haptiques (désactivables dans les Options).</td></tr>
+</table>
+
+<h3>Enfants</h3>
+<p>LetterFall s'adresse aux joueurs de 13 ans et plus et n'est pas destiné aux
+enfants plus jeunes. JCorp ne collecte aucune donnée personnelle, y compris
+auprès des enfants ; les données de Google AdMob, Google Firebase et Google
+Play Jeux sont régies par les conditions de Google.</p>
+
+<h3>Modifications</h3>
+<p>Si une version future change la façon dont des données sont traitées,
+cette politique sera mise à jour avant sa mise en service, avec une nouvelle
+date d'entrée en vigueur.</p>
+
+<h3>Contact</h3>
+<p>Pour toute question : <a href="mailto:dev.jcorp@gmail.com">dev.jcorp@gmail.com</a>.</p>
+</section>
+
+<hr>
+
+<section id="en" lang="en">
+<h2>Privacy Policy</h2>
+<p>This policy explains how the game LetterFall (Android app
+<code>com.jcorp.letterfall</code>), published by JCorp, handles information.
+In short: <strong>JCorp has no server and does not sell or share any personal
+data.</strong> The game shows ads provided by Google AdMob, measures its usage
+and crashes anonymously with Google Firebase (can be turned off) and, if you
+wish, uses Google Play Games (leaderboards, achievements, cloud save) and, only
+when you play an online duel, the GD-Sync multiplayer service. These services
+process some data, described below.</p>
+
+<h3>Data stored on your device</h3>
+<p>Your progress (scores, statistics, Collection words, Daily Challenge
+streak, missions, unlocked items, coins) and your settings (volume, vibration,
+reminders…) are saved in the app's private storage on your phone. They are not
+included in Android cloud backup; only a copy may be kept in your Google Play
+Games save (see below). Uninstalling the app deletes the data on the phone.</p>
+
+<h3>Internet connection</h3>
+<p>So that the Daily Challenge changes at the same time for everyone, the
+app reads the current time from a public server: it sends a simple request
+(with no content) to <code>www.google.com</code>, or to
+<code>www.cloudflare.com</code> as a fallback, and only reads the date of the
+reply. No information about you or your game is sent. As with any Internet
+connection, these services see the device's IP address and handle it under
+their own privacy policies. Offline, the game remains playable using the
+phone's date.</p>
+
+<h3>Advertising (Google AdMob)</h3>
+<p>LetterFall is free and funded by ads provided by Google AdMob: a banner at
+the bottom of the game screens, an occasional full-screen ad between two games,
+and videos you choose to watch for a reward (second chance, doubled coins).</p>
+<ul>
+<li>To show and measure these ads, the Google Mobile Ads SDK built into the
+game processes device data: Android advertising ID, IP address (and the
+approximate location derived from it), device model and system, language,
+interactions with ads, diagnostics. This data goes to Google, not to JCorp.</li>
+<li>In the European Economic Area, the United Kingdom and Switzerland, a Google
+form asks for your consent on first launch: without consent, ads are not
+personalised. You can change your choice at any time in Options, "Ad
+privacy".</li>
+<li>You can reset or delete your advertising ID in Android settings (Google ›
+Ads, or Privacy › Ads).</li>
+<li>Ads are limited to content suitable for teens.</li>
+</ul>
+<p>See <a href="https://policies.google.com/technologies/partner-sites">how Google
+uses information from apps that use its services</a> and the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h3>Usage statistics and crashes (Google Firebase)</h3>
+<p>To know which modes are played and fix bugs faster, LetterFall uses Google
+Firebase Analytics and Firebase Crashlytics, provided by Google:</p>
+<ul>
+<li>what is sent: the screens you open (menu, mode select, options…), the mode
+of each game you start, and at the end of a game the mode, score, number of
+words found and display smoothness (frames per second); the device's amount of
+memory (rounded) and whether lite mode is on, to adapt the game to low-end
+phones; your game settings (music and sound effects volume, vibration, phone
+tilt and shake, reminders), to see which ones are used; if the game crashes or hits an error, a technical report (where
+in the code, game version, device model and Android version, free memory and
+storage);</li>
+<li>Firebase adds a random installation ID specific to LetterFall, general
+device information (model, Android version, language, approximate country
+derived from the IP address) and session length;</li>
+<li>the game also adds an anonymous 10-character code, drawn at random on
+first launch and not linked to your identity in any way; it is kept in your
+save (and in the Google Play Games cloud save if you use it), so that a
+player is only counted once, even after reinstalling;</li>
+<li>never sent: your name, the words you make, your advertising ID or your
+Google Play Games profile;</li>
+<li>JCorp only sees anonymous statistics, in the Firebase console: overall
+figures (for example the number of games per mode), the activity of each
+anonymous code (days played, play time, games, game version, device model),
+with no way to link a code to a person, and crash reports; this data is
+hosted by Google and kept according to its retention periods;</li>
+<li>you can turn this off at any time in Options, "Anonymous statistics":
+nothing is then sent to Firebase.</li>
+</ul>
+<p>See <a href="https://firebase.google.com/support/privacy">Privacy and
+Security in Firebase</a> and the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h3>Google Play Games (optional)</h3>
+<p>On Android, LetterFall uses Google Play Games Services, provided by Google.
+If you are signed in to Google Play Games (sign-in handled by Google, with your
+Play Games player profile):</p>
+<ul>
+<li>your score for the ranked daily attempt is submitted to the "Daily
+Challenge" leaderboard, and the score of each Arcade or Time Attack game to that
+mode's leaderboard: they are visible to other players with your Play Games
+profile (gamer name and avatar), according to your Play Games visibility
+settings;</li>
+<li>the in-game leaderboard screen shows these leaderboards (players' gamer
+names, avatars and scores); if you pick the "Friends" filter and allow it, your
+Play Games friends list is used to show only your friends. It is read from
+Google on your device and is neither stored nor sent anywhere else;</li>
+<li>your unlocked achievements (and their progress) are recorded in your Play
+Games profile;</li>
+<li>your progress (scores and statistics, Collection words, Daily Challenge
+streak, missions, unlocked items, coins) is saved to your Google account's cloud
+("Saved Games"), so it follows you to another device or a reinstall.</li>
+</ul>
+<p>This data is processed and stored by Google under the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
+JCorp does not receive it: we only see the leaderboards, like other players.
+Without a Play Games sign-in, nothing is sent to Play Games and the game works
+normally. You can sign out or delete your game data from the Google Play Games
+app or settings.</p>
+
+<h3>Online duel (GD-Sync)</h3>
+<p>The Duel can be played online against another player (private room with a
+code, or a random opponent). This mode uses GD-Sync
+(<a href="https://www.gd-sync.com">gd-sync.com</a>), a relay service for
+multiplayer games, and only while you use it:</p>
+<ul>
+<li>what is sent: your duel name (your Google Play Games gamer name, or
+"Player"), the room code, and the game messages (attacks sent, how full your
+jar is, end of the game). Your opponent sees your name;</li>
+<li>as with any Internet connection, GD-Sync sees the device's IP
+address;</li>
+<li>no account is created and JCorp keeps nothing. The room disappears once
+both players have left it.</li>
+</ul>
+<p>If you don't play online, nothing is sent to GD-Sync.</p>
+
+<h3>Reminders</h3>
+<p>The game may show reminders (for example "Your 12-day streak is
+waiting!"): they are scheduled by your phone itself, with no server, and
+nothing is sent. You can turn them off in Options ("Daily reminders") or in
+Android settings.</p>
+
+<h3>Sharing, only when you choose</h3>
+<p>The Daily Challenge "Share" button copies a result text to the
+clipboard; you decide whether to paste it anywhere.</p>
+
+<h3>What LetterFall does not do</h3>
+<ul>
+<li>No LetterFall account or sign-up (only your Google Play Games profile,
+if you use it).</li>
+<li>No JCorp server, no data selling, no analytics or audience measurement
+tools other than Google AdMob, Google Firebase and Google Play Games described
+above (GD-Sync only relays online duels).</li>
+<li>No access to your GPS location, contacts, photos, microphone or camera.</li>
+<li>No in-app purchases.</li>
+</ul>
+
+<h3>Android permissions</h3>
+<table>
+<tr><th>Permission</th><th>Use</th></tr>
+<tr><td>Internet, network state</td><td>Daily Challenge time, Google Play Games, ads, statistics and crash reports, online duel.</td></tr>
+<tr><td>Advertising ID (AD_ID)</td><td>Google AdMob ads (see above).</td></tr>
+<tr><td>Notifications</td><td>Daily Challenge reminders (Android 13 and later: you choose whether to allow it).</td></tr>
+<tr><td>Vibrate</td><td>Haptic feedback (can be turned off in Options).</td></tr>
+</table>
+
+<h3>Children</h3>
+<p>LetterFall is meant for players aged 13 and over and is not directed at
+younger children. JCorp collects no personal data from anyone, including
+children; Google AdMob, Google Firebase and Google Play Games data is governed
+by Google's terms.</p>
+
+<h3>Changes</h3>
+<p>If a future version changes how data is processed, this policy will be
+updated before that change goes live, with a new effective date.</p>
+
+<h3>Contact</h3>
+<p>Questions: <a href="mailto:dev.jcorp@gmail.com">dev.jcorp@gmail.com</a>.</p>
+</section>
+</main>
+</body>
+</html>
