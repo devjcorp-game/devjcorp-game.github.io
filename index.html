@@ -24,7 +24,7 @@
 <main>
 <h1>LetterFall</h1>
 <p class="meta">Éditeur / Publisher : JCorp · Contact : <a href="mailto:dev.jcorp@gmail.com">dev.jcorp@gmail.com</a><br>
-En vigueur le 4 novembre 2026 / Effective November 4, 2026</p>
+En vigueur le 5 novembre 2026 / Effective November 5, 2026</p>
 <nav><a href="#fr">Français</a><a href="#en">English</a></nav>
 
 <section id="fr" lang="fr">
@@ -94,7 +94,7 @@ de chaque partie lancée, et en fin de partie le mode, le score, le nombre de
 mots trouvés et la fluidité de l'affichage (images par seconde) ; la quantité
 de mémoire vive de l'appareil (arrondie) et l'état du mode léger, pour adapter
 le jeu aux téléphones modestes ; vos réglages du jeu (volume de la musique et
-des effets, vibrations, mouvements du téléphone, rappels), pour savoir
+des effets, vibrations, inclinaison et secousse du téléphone, rappels), pour savoir
 lesquels sont utilisés ; en cas de plantage ou d'erreur du jeu, un rapport technique
 (endroit du code en cause, version du jeu, modèle et version d'Android,
 mémoire et espace libres) ;</li>
@@ -102,12 +102,19 @@ mémoire et espace libres) ;</li>
 LetterFall, ainsi que des informations générales sur l'appareil (modèle,
 version d'Android, langue, pays approximatif déduit de l'adresse IP) et la
 durée des sessions ;</li>
+<li>le jeu y joint aussi un code anonyme de 10 caractères, tiré au hasard au
+premier lancement et sans aucun lien avec votre identité ; il est gardé dans
+votre sauvegarde (et dans la sauvegarde en ligne Google Play Jeux si vous
+l'utilisez), pour qu'un même joueur ne soit compté qu'une fois, même après
+une réinstallation ;</li>
 <li>ne sont jamais envoyés : votre pseudo, les mots que vous formez, votre
 identifiant publicitaire ni votre profil Google Play Jeux ;</li>
-<li>JCorp ne voit que des statistiques globales et anonymes (par exemple le
-nombre de parties par mode) et les rapports de plantage, dans la console
-Firebase ; ces données sont hébergées par Google et conservées selon ses
-durées ;</li>
+<li>JCorp ne voit que des statistiques anonymes, dans la console Firebase :
+des chiffres globaux (par exemple le nombre de parties par mode), l'activité
+de chaque code anonyme (jours de jeu, temps de jeu, parties, version du jeu,
+modèle d'appareil), sans moyen de relier un code à une personne, et les
+rapports de plantage ; ces données sont hébergées par Google et conservées
+selon ses durées ;</li>
 <li>vous pouvez couper cette collecte à tout moment dans les Options,
 « Statistiques anonymes » : plus rien n'est alors envoyé à Firebase.</li>
 </ul>
@@ -268,16 +275,22 @@ of each game you start, and at the end of a game the mode, score, number of
 words found and display smoothness (frames per second); the device's amount of
 memory (rounded) and whether lite mode is on, to adapt the game to low-end
 phones; your game settings (music and sound effects volume, vibration, phone
-movements, reminders), to see which ones are used; if the game crashes or hits an error, a technical report (where
+tilt and shake, reminders), to see which ones are used; if the game crashes or hits an error, a technical report (where
 in the code, game version, device model and Android version, free memory and
 storage);</li>
 <li>Firebase adds a random installation ID specific to LetterFall, general
 device information (model, Android version, language, approximate country
 derived from the IP address) and session length;</li>
+<li>the game also adds an anonymous 10-character code, drawn at random on
+first launch and not linked to your identity in any way; it is kept in your
+save (and in the Google Play Games cloud save if you use it), so that a
+player is only counted once, even after reinstalling;</li>
 <li>never sent: your name, the words you make, your advertising ID or your
 Google Play Games profile;</li>
-<li>JCorp only sees overall anonymous statistics (for example the number of
-games per mode) and crash reports, in the Firebase console; this data is
+<li>JCorp only sees anonymous statistics, in the Firebase console: overall
+figures (for example the number of games per mode), the activity of each
+anonymous code (days played, play time, games, game version, device model),
+with no way to link a code to a person, and crash reports; this data is
 hosted by Google and kept according to its retention periods;</li>
 <li>you can turn this off at any time in Options, "Anonymous statistics":
 nothing is then sent to Firebase.</li>
