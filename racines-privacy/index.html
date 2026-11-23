@@ -76,12 +76,22 @@ Racines utilise Google Firebase Analytics et Firebase Crashlytics, fournis par
 Google :</p>
 <ul>
 <li>sont envoyés : le lancement et la fin de chaque grille (mode, niveau,
-date de la grille, temps, nombre d'indices), les indices demandés, la
-progression du didacticiel, les actions du jardin (arrosage, floraison,
-cadeau), l'utilisation du bouton Partager, la fin d'une série, l'activation du
-rappel quotidien (et son heure), les publicités vues, les achats (produit
-acheté) ; en cas de plantage ou d'erreur du jeu, un rapport technique (endroit
-du code en cause, version du jeu, modèle et version d'Android) ;</li>
+date de la grille, temps, nombre d'indices), et une grille quittée avant la fin
+(mode, niveau, part des racines déjà tracées, temps, indices) ; les écrans
+ouverts (accueil, jeu, jardin, herbier, statistiques, réglages, boutique…) ; les
+indices demandés, la progression du didacticiel, les actions du jardin
+(arrosage, floraison, cadeau, plante semée, décor posé, changement de parcelle
+ou de fond) ; l'utilisation du bouton Partager, la fin d'une série,
+l'activation du rappel quotidien (et son heure) ; les publicités vues et, à
+chaque lancement, le résultat du premier chargement de chaque type de publicité
+(chargée, ou la raison de l'échec) ; les achats (produit acheté) ; une fois par
+lancement, vos réglages du jeu (langue, apparence, thème, sons, vibrations,
+rappel, options d'accessibilité) et la mémoire vive de l'appareil (arrondie),
+ainsi que la fluidité de l'affichage sur l'accueil et dans le jardin (images
+par seconde, images lentes) et l'activation automatique du mode économie, pour
+adapter le jeu aux téléphones modestes ; en cas de plantage ou d'erreur du jeu,
+un rapport technique (endroit du code en cause, version du jeu, modèle et
+version d'Android) ;</li>
 <li>Firebase y joint un identifiant d'installation aléatoire, propre à
 Racines, ainsi que des informations générales sur l'appareil (modèle, version
 d'Android, langue, pays approximatif déduit de l'adresse IP) et la durée des
@@ -194,11 +204,20 @@ uses information from apps that use its services</a> and the
 Firebase Analytics and Firebase Crashlytics, provided by Google:</p>
 <ul>
 <li>what is sent: the start and end of each puzzle (mode, level, puzzle date,
-time, number of hints), hints requested, tutorial progress, garden actions
-(watering, blooming, gift), use of the Share button, the end of a streak,
-turning on the daily reminder (and its time), ads watched, purchases (product
-bought); if the game crashes or hits an error, a technical report (where in the
-code, game version, device model and Android version);</li>
+time, number of hints), and a puzzle left before it is solved (mode, level,
+share of roots already drawn, time, hints); the screens you open (home, game,
+garden, herbarium, statistics, settings, shop…); hints requested, tutorial
+progress, garden actions (watering, blooming, gift, plant sown, decoration
+placed, plot or lawn changed); use of the Share button, the end of a streak,
+turning on the daily reminder (and its time); ads watched and, at each launch,
+the result of the first load of each ad type (loaded, or why it failed);
+purchases (product bought); once per launch, your game settings (language,
+appearance, theme, sounds, vibration, reminder, accessibility options) and the
+device's amount of memory (rounded), along with display smoothness on the home
+screen and in the garden (frames per second, slow frames) and whether power
+saving mode turned on by itself, to adapt the game to low-end phones; if the
+game crashes or hits an error, a technical report (where in the code, game
+version, device model and Android version);</li>
 <li>Firebase adds a random installation ID specific to Racines, general device
 information (model, Android version, language, approximate country derived from
 the IP address) and session length. The advertising ID is <strong>not</strong>
